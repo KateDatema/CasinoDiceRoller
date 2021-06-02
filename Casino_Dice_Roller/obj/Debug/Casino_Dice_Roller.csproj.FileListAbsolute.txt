@@ -1,0 +1,6 @@
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/bin/Debug/Casino_Dice_Roller.exe
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/bin/Debug/Casino_Dice_Roller.pdb
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/obj/Debug/Casino_Dice_Roller.csprojAssemblyReference.cache
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/obj/Debug/Casino_Dice_Roller.csproj.CoreCompileInputs.cache
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/obj/Debug/Casino_Dice_Roller.exe
+/Users/katedatema/Projects/Casino_Dice_Roller/Casino_Dice_Roller/obj/Debug/Casino_Dice_Roller.pdb

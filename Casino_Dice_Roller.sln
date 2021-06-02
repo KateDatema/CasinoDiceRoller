@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino_Dice_Roller", "Casino_Dice_Roller\Casino_Dice_Roller.csproj", "{14BFD2E3-DFFE-4D71-89F5-6C3F4C8530A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14BFD2E3-DFFE-4D71-89F5-6C3F4C8530A1}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{14BFD2E3-DFFE-4D71-89F5-6C3F4C8530A1}.Debug|anycpu.Build.0 = Debug|anycpu
+		{14BFD2E3-DFFE-4D71-89F5-6C3F4C8530A1}.Release|anycpu.ActiveCfg = Release|anycpu
+		{14BFD2E3-DFFE-4D71-89F5-6C3F4C8530A1}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA6EFB18-5601-49BE-B7C0-B8A91C732FFB}
+	EndGlobalSection
+EndGlobal
