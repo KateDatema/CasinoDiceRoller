@@ -14,12 +14,26 @@ namespace CasinoDiceRoller
             {
                 string input = GetUserInput("How many side would you like your pair of dice to have? (example 6)");
 
+                
+                try
+                { int sidesOfDic = int.Parse(input);
+                    if (sidesOfDic<2)
+                    { throw new Exception("Sorry, That's too low of  a number, please choose something above 2"); }
+                    Rolling(sidesOfDic);
 
-                int sidesOfDic = int.Parse(input);
+                    GetContinue();
+                }
+                
+                catch (FormatException)
+                {
+                    Console.WriteLine("That's not a vaild number, please try again");
+                }
+                catch (Exception e)
+                { Console.WriteLine(e.Message); }
+                
 
-                Rolling(sidesOfDic);
 
-                GetContinue();
+               
             }
 
         }
@@ -28,16 +42,14 @@ namespace CasinoDiceRoller
 
         public static void Rolling(int sidesOfDic)
         {
-            int total = 0;
             Random r = new Random();
             int roll1;
             int roll2;
+            int total = 0;
 
+            roll1 = r.Next(1, sidesOfDic + 1);
+            roll2 = r.Next(1, sidesOfDic + 1);
 
-            //roll1 = r.Next(1, sidesOfDic + 1);
-            //roll2 = r.Next(1, sidesOfDic + 1);
-            roll1 = 2;
-            roll2 = 1;
             total += roll1 + roll2;
             Console.WriteLine($"Your first dice was {roll1} and your second dice was {roll2}");
                
@@ -53,14 +65,9 @@ namespace CasinoDiceRoller
                 else if (total == 7 || total == 11)
                 { Console.WriteLine("Thats a win"); }
                 else if (total == 2 || total == 3 || total == 12)
-                { Console.WriteLine("CRAPS"); }
-                else
-                {  }
+                { Console.WriteLine("CRAPS"); } 
             }
-            else
-            { }
-                
- 
+         
         }
 
       
